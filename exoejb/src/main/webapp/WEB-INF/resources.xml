@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomee>
+<Resource id="adherentDataSource" type="javax.sql.DataSource">
+  JdbcDriver com.mysql.jdbc.Driver
+  JdbcUrl jdbc:mysql://localhost/javaee
+  UserName root
+  Password 
+  JtaManaged true
+</Resource>
+</tomee>
